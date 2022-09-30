@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-
+#github username : @anuragd275
 #Welcome message
 welcome_message = "=======================Welcome to GitHub Profile Accessor=======================\nPlease enter GitHub username to access GitHub Profile"
 print(welcome_message)
@@ -23,7 +23,3 @@ fp = open("{}.png".format(username), "wb")
 fp.write(img.content)
 fp.close()
 print("Downloaded {}'s Successfully.".format(username))
-
-
-
-
